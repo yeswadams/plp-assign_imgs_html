@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+        .navbar {
+            background-color: #ffff;
+            overflow: hidden;
+            margin-left: 70px;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 20px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #D1D9E0;
+            color: red;
+        }
+        .container {
+            padding: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .column {
+            flex: 50%;
+            padding: 10px;
+        }
+        .column img {
+            width: 100%;
+            height: auto;
+        }
+        .class-text1 {
+            font-size: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#menu">Menu</a>
+    </div>
+    <div class="container">
+        <div id="home">
+            <h1>Welcome to Our Website</h1>
+            <p>Welcome to our digital sanctuary, where the harmonious fusion of technology, food, and nature converges to create a serene and rejuvenating experience. Picture yourself in a tranquil oasis, surrounded by the soothing embrace of lush greenery, where the gentle breeze carries the scent of aromatic flowers and the melodic symphony of birds in the distance.
+
+                As you immerse yourself in this digital haven, cutting-edge innovations seamlessly integrate with the natural world, empowering you to stay connected while disconnecting from the chaos of everyday life. Imagine exploring our curated collection of mouthwatering recipes, each one a delightful celebration of the earth's bounty, meticulously crafted by passionate culinary artists who understand the art of nourishing both body and soul.
+                
+                Envision yourself embarking on a journey of self-discovery, where the wonders of nature unfold before your eyes, revealing breathtaking landscapes and sustainable practices that nurture our planet. Feel the weight of your worries dissipate as you lose yourself in the beauty of the great outdoors, allowing your senses to awaken and your spirit to ignite with renewed vigor.
+                
+                Welcome to a place where technology, food, and nature coalesce in perfect harmony, fostering a lifestyle that nourishes the mind, body, and soul. Here, you'll find solace in the digital realm while reconnecting with the essence of life itself, cultivating a profound sense of inner peace and tranquility.
+            </p>
+            <a href="https://www.microsoft.com/en-us/" target="_blank">
+                <img src="img/technology.avif" alt="A descriptive text about the image" width= 100%>
+              </a>
+              
+        </div>
+        <div id="gallery">
+            <h2>Gallery</h2>
+            <div class="row">
+                <div class="column">
+                    <a href="https://infinitylearn.com/surge/english/essays/essay-topics-on-nature/">
+                        <img src="img/nature.jpg" alt="Nature Image 1" width= 20% height="30%">
+                    </a>
+                </div>
+                <div class="column">
+                    <a href="https://infinitylearn.com/surge/english/essays/essay-topics-on-nature/"><img src="img/nature2.jpg" alt="Nature 2"></a>
+                </div>
+            </div>
+        </div>
+        <div id="menu">
+            <h2>Menu</h2>
+            <ol>
+                <li><a href="https://www.feastingathome.com/coconut-rice/" target="link1">Burger 1</a></li>
+                <li><a href="https://www.recipetineats.com/french-fries/" target="link2">French Fries</a></li>
+                <li><a href="https://www.feastingathome.com/coconut-rice/" target="link3">Coconut Rice</a></li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>

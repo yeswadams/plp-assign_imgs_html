@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.wraper {
+    margin: auto;
+    width: 1000px;
+
+}
+
+.img-cat {
+    width: 300px;
+
+}
